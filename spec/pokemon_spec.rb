@@ -49,7 +49,7 @@ describe "Pokemon" do
     #end
 
     #let(:pikachu){Pokemon.find(1, @db)}
-    l#et(:magikarp){Pokemon.find(2, @db)}
+    #let(:magikarp){Pokemon.find(2, @db)}
 
     # remove the 'x' before 'it' to run these tests
     #xit "knows that a p#okemon have a default hp of 60" do
@@ -70,5 +70,5 @@ describe "Pokemon" do
       #magikarp.alter_hp(0, @db)
       #expect(Pokemon.find(2, @db).hp).to eq(0)
     #end
-  end
+  #end
 end
